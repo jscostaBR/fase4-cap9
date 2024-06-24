@@ -1,0 +1,28 @@
+header, main {
+    max-width: 1920px;
+}
+header > div{
+    background-color: #3F51B5;
+    color: white;
+    > i {
+        font-size: 48px;
+        cursor: pointer;
+    }
+}
+.received, .investments, .outgoing, .debts {
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+.received{
+    background-color: #4DB6AC;
+}
+.investments{
+    background-color: #00BCD4;
+}
+.outgoing{
+    background-color: #FFCA28
+}
+.debts{
+    background-color: #E91E63;
+}
